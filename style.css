@@ -1,0 +1,38 @@
+  .table__movi {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;/*para que no queden espacios entre celdas*/
+  }
+  
+  .encabezado {
+    background-color: #72dfcf;
+  }
+  
+  .encabezado th {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #3a6197;
+  }
+  .table__body{
+    border: 2px solid #09408d;
+  }
+  .table__body td {
+  padding: 10px;
+  text-align: left;
+  border: 2px solid #09408d;
+  font-weight: normal;
+}
+
+
+.table__movi {
+  table-layout: fixed;/*para que todas las celdas tengan el mismo tamaño */
+}
+
+.table__movi th  {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
